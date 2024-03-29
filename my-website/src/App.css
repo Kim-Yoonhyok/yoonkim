@@ -1,10 +1,15 @@
+@font-face {
+    font-family: 'Dugas-Ultra';
+    src: url('./Fonts/DugasPro-RegularExtra-condensed.ttf');
+}
+
 .main{
-    background-color: #1d2433;
-    color: #a8b2d1;
+    background-color: #fff7f0;
+    color: #262523;
     font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    min-width: 100vw;
     min-height: 100vh;
-    margin: 0;
 }
