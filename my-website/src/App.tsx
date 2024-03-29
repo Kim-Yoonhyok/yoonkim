@@ -10,6 +10,7 @@ function App() {
         <NavBar />
         <Introduction />
         <Scroll />
+        <About />
     </div>
   )
 }
