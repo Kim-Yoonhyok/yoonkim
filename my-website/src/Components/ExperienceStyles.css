@@ -1,0 +1,68 @@
+.experience {
+    position: relative;
+    display: flex;
+    margin-left: 300px;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.firstExp {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    grid-row-gap: 0
+}
+
+.expContainer {
+    display: grid;
+    grid-template-areas:
+        "date company"
+        "location description";
+    grid-template-columns: 1fr 1fr;
+}
+
+.date {
+    grid-area: date;
+    font-size: 18px;
+    color: #262523;
+    display: flex;
+    align-items: center;
+}
+
+.date::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 300px;
+    background-color: #676767;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+
+}
+
+
+.company {
+    grid-area: company;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0;
+    margin-left: 8px;
+}
+
+.location {
+    grid-area: location;
+    font-size: 16px;
+    color: #262523;
+}
+
+.description {
+    grid-area: description;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
