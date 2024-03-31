@@ -10,7 +10,7 @@
     font-weight: bold;
 }
 
-.firstExp {
+.exp {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
