@@ -1,8 +1,9 @@
-import NavBar from './Components/NavBar.js'
-import Introduction from './Components/Introduction.js'
-import Scroll from './Components/Scroll.js'
-import About from './Components/About.js'
-import Experience from './Components/Experience.js'
+import NavBar from './Components/NavBar/NavBar.js'
+import Introduction from './Components/Introduction/Introduction.js'
+import Scroll from './Components/Scroll/Scroll.js'
+import About from './Components/About/About.js'
+import Experience from './Components/Experience/Experience.js'
+import Contact from './Components/Contact/Contact.js'
 import './App.css'
 
 
@@ -14,6 +15,7 @@ function App() {
         <Scroll />
         <About />
         <Experience />
+        <Contact />
     </div>
   )
 }

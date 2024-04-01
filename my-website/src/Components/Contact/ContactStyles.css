@@ -1,0 +1,38 @@
+.contact {
+    margin: 70px 300px;
+}
+
+.contact > p {
+    font-family: "Space Mono";
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #262523;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000000;
+}

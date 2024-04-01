@@ -16,6 +16,15 @@
     padding: 5px 5px;
 }
 
+.nav-list a {
+    text-decoration: none;
+    color: #262523;
+}
+
+.nav-list a:hover {
+    color: #000000;
+}
+
 .nav-list li {
     display: inline-block;
     margin: 5px;
@@ -28,22 +37,26 @@
 }
 
 .resume-button {
+    display: inline-block;
     font-family: "Space Mono";
     font-weight: lighter;
     font-size: normal;
     color: #262523;
     background-color: transparent;
     border-color: #262523;
+    border: 1.5px solid #262523;
     border-radius: 10px;
     margin: 5px 5px 5px 25px;
     padding: 5px 5px;
     width: 100px;
+    box-shadow: 0 2px #262523;
+}
 
-    &&:hover {
-        transform: scale(1.1);
-        transition: color 0.5s, transform 0.2s, background-color 0.2s;
-        cursor: pointer;
-    }
+.resume-button:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+    cursor: pointer;
+
 }
 
 .logo {
