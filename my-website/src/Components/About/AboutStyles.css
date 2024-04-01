@@ -1,13 +1,11 @@
 .about {
-    margin-left: 300px;
-    margin-top: 100px;
-    width: 900px;
+    margin: 150px 220px;
+    width: 1000px;
     font-weight: lighter;
     margin-bottom: 100px;
 }
 
 .about > h1 {
-    margin-left: 340px;
     margin-bottom: 30px;
     font-weight: bold;
 }
