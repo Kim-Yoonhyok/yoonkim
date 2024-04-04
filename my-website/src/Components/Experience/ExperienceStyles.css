@@ -28,11 +28,12 @@
 
 .date {
     grid-area: date;
-    font-size: 18px;
+    font-size: 19px;
     color: #262523;
     display: flex;
     align-items: center;
     white-space: nowrap;
+    width: 600px
 }
 
 .date::after {
@@ -71,8 +72,8 @@
 
 .role {
     grid-area: role;
-    font-size: 16px;
-    color: #262523;
+    font-size: 18px;
+    color: #2d2d2d;
 
 }
 

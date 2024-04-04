@@ -10,7 +10,7 @@ function Experience () {
                     <div className="expContainer">
                         <h3 className="date">Jan 2024 - May 2024</h3>
                         <h2 className="company"><a href="https://tophat.com/" target="_blank">Top Hat</a></h2>
-                        <h3 className="location">Toronto, ON</h3>
+                        <h3 className="location">Remote</h3>
                         <h4 className="role">Software Engineer</h4>
                         <div className="description">
                             <p>• Migrated over 500 unit tests from an Enzyme Library to a React Testing Library for easier maintainability, and
