@@ -1,7 +1,7 @@
 .experience {
     position: relative;
     display: flex;
-    left: 15vw;
+    left: 225px;
     flex-direction: column;
     color: #262523;
 }
