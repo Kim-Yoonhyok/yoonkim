@@ -2,21 +2,53 @@ import './ContactStyles.css'
 
 function Contact () {
     return (
-        <section id='contact'>
-            <div className='contact'>
-                <h1 className='title'>Contact Form</h1>
-                <p>Feel free to contact me for any questions, inquiries, or if you just want to chat</p>
-                <form>
-                    <label for='name'>Name:</label>
-                    <input type='text' id='name' name='name'></input>
-                    <label for='email'>Email:</label>
-                    <input type='email' id='email' name='email'></input>
-                    <label for='message'>Message:</label>
-                    <textarea id='message' name='message'></textarea>
-                    <button type='submit'>Submit</button>
-                </form>
+        <div className="background">
+            <div className="container">
+                <div className="screen">
+                    <div className="screen-header">
+                        <div className="screen-header-left">
+                            <div className="screen-header-button close"></div>
+                            <div className="screen-header-button maximize"></div>
+                            <div className="screen-header-button minimize"></div>
+                        </div>
+                        <div className="screen-header-right">
+                            <div className="screen-header-ellipsis"></div>
+                            <div className="screen-header-ellipsis"></div>
+                            <div className="screen-header-ellipsis"></div>
+                        </div>
+                    </div>
+                    <div className="screen-body">
+                        <div className="screen-body-item left">
+                            <div className="app-title">
+                                <span>CONTACT</span>
+                                <span>US</span>
+                            </div>
+                            <div className="app-contact">CONTACT INFO : 1 (506) 285-6710</div>
+                        </div>
+                        <div className="screen-body-item">
+                            <div className="app-form">
+                                <div className="app-form-group">
+                                    <input className="app-form-control" placeholder="NAME" value="Yoon Kim"/>
+                                </div>
+                                <div className="app-form-group">
+                                    <input className="app-form-control" placeholder="EMAIL"/>
+                                </div>
+                                <div className="app-form-group">
+                                    <input className="app-form-control" placeholder="CONTACT NO"/>
+                                </div>
+                                <div className="app-form-group message">
+                                    <input className="app-form-control" placeholder="MESSAGE"/>
+                                </div>
+                                <div className="app-form-group buttons">
+                                    <button className="app-form-button">CANCEL</button>
+                                    <button className="app-form-button">SEND</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
     )
 }
 
