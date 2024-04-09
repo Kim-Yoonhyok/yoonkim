@@ -3,8 +3,8 @@ import "./ExperienceStyles.css"
 function Experience () {
     return (
         <section id='experience'>
+            <h1 className="title">Experience</h1>
             <div className="experience">
-                <h1 className="title">Experience</h1>
 
                 <div className="exp">
                     <div className="expContainer">
