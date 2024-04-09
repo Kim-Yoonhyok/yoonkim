@@ -1,6 +1,9 @@
 .introduction {
     display: flex;
     flex-direction: column;
+    width: 600px;
+    margin-top: 130px;
+    margin-left: 220px;
 }
 
 h4 {
@@ -40,8 +43,4 @@ h1 {
     font-weight: normal;
 }
 
-.introduction {
-    margin-top: 130px;
-    margin-left: 220px;
-    width: 100%;
-}
+
