@@ -37,7 +37,7 @@ function NavBar () {
                     <li><a href="#experience">Experience</a></li>
                     <li>Projects</li>
                     <li><a href="#contact">Contact</a></li>
-                    <a href="/resume.pdf" target="_blank">
+                    <a href="/resume2.pdf" target="_blank">
                         <button className="resume-button">Resume</button>
                     </a>
 

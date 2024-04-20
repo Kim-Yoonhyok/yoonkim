@@ -1,12 +1,7 @@
-@font-face {
-    font-family: 'Dugas-Ultra';
-    src: url('./Fonts/DugasPro-RegularExtra-condensed.ttf');
-}
-
 .main{
-    background-color: #fff7f0;
+    background-color: #faefe6;
     color: #262523;
-    font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     display: flex;
     flex-direction: column;
